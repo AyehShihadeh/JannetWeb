@@ -10,6 +10,7 @@ html, body{
 .nav-bar{
     display: flex;
     justify-content: center;
+    align-items: center;
     /* border-bottom: 5px brown solid; */
     width: 100%;
     height: fit-content;
@@ -38,28 +39,83 @@ html, body{
     color: rgb(145, 114, 70);
 }
 
+.bar{
+    width: 25%;
+    height: 2px;
+    background-color: burlywood;
+}
+
 .opening{
     display: flex;
-    background-image: url('IMAGES/library1.jpg');
+    background-image: url('IMAGES/library6.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    height: 700px;
+    height: 650px;
     width: 100%;
     position: relative;
+    align-items: center;
+ 
 }
 
 .name{
-    /* height: fit-content; */
     width: fit-content;
     display: flex;
-    left: 80%;
-    top: 50%;
+    left: 70%;
+    top: 40%;
     position: absolute;
     color: burlywood;
     font-size: 50px;
     align-items: center;
 }
 
+.about-me{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(238, 204, 159);
+}
+
+.headshot{
+    display: flex;
+    border-radius: 99%;
+    
+}
+
+#jannet{
+    border-radius: 15%;
+    width: 350px;
+    height: 415px; 
+
+
+
+}
+
+.about{
+    color: rgb(214, 181, 137);
+height: fit-content;
+width: 800px;
+font-size: 30px;
+margin-left: 60px;
+padding: 0px 10px;
+}
+
+.work-section{
+    height: 800px;
+    width: 100%;
+    background-color: rgb(83, 44, 0);
+}
+
+.contact-section{
+    height: 800px;
+    width: 100%;
+    background-image: url('IMAGES/library6.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
 
