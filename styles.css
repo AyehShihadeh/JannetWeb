@@ -47,7 +47,8 @@ html, body{
 
 .opening{
     display: flex;
-    background-image: url('IMAGES/library6.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('IMAGES/library6.jpg');
+    /* filter: brightness(50%); */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -70,43 +71,128 @@ html, body{
     align-items: center;
 }
 
-.about-me{
+.about-me-section{
     height: 700px;
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: row;
     background-color: rgb(238, 204, 159);
+    border-top: 15px double rgb(77, 54, 6);
+    border-bottom: 15px double rgb(77, 54, 6);
+
 }
 
-.headshot{
+.about-left{
     display: flex;
-    border-radius: 99%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700PX;
+    
+}
+
+.about-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.award{
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    width: 500px;
+    height: fit-content;
+    margin: 20px 0px;
+}
+
+/* #a{
+    width: 100px;
+    height: 100px;
+} */
+
+.award-dot{
+    height: 120px;
+    width: 120px;
+    background-color: #532c00;
+    border-radius: 50%;
+    border: 5px double rgb(145, 114, 70);
+    margin: 10px;
+}
+
+.award-title{
+    font-size: 18px;
+    text-align: center;
+    width: 300px;
+    
+}
+
+
+
+.headshot{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    height: 200px;
+    position: relative;
     
 }
 
 #jannet{
     border-radius: 15%;
-    width: 350px;
-    height: 415px; 
-
-
-
+    position: absolute;
+    z-index: 2;
+    height: 190px;
+    width: 172px;
 }
 
-.about{
+.dot {
+    height: 170px;
+    width: 170px;
+    background-color: rgb(83, 44, 0);
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    /* border: 5px double rgb(145, 114, 70); */
+  }
+
+
+  .about-me-p{
+    display: flex;
+    /* box-shadow: inset; */
+    height: 200px;
+    width: fit-content;
+    font-size: 20px;
+    word-spacing: 5px;
+    line-height: 25px;
+  }
+
+  .about-me-title{
+    font-size: 90px;
+    color: rgb(63, 36, 0);
+    letter-spacing: 5px;
+  }
+
+
+.quote{ 
     color: rgb(214, 181, 137);
-height: fit-content;
-width: 800px;
-font-size: 30px;
-margin-left: 60px;
-padding: 0px 10px;
+    height: fit-content;
+    width: 800px;
+    font-size: 30px;
+    padding: 0px 30px;
+    text-align: center;
 }
 
 .work-section{
     height: 800px;
     width: 100%;
-    background-color: rgb(83, 44, 0);
+    background-color: rgb(238, 204, 159);
 }
 
 .contact-section{
