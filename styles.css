@@ -20,7 +20,7 @@ html, body{
 
 .nav-item{
     padding: 5px;
-    margin: 0px 80px;
+    margin: 0px 50px;
     letter-spacing: 3px;
     font-size: 18px;
     
@@ -40,7 +40,7 @@ html, body{
 }
 
 .bar{
-    width: 25%;
+    width: 20%;
     height: 2px;
     background-color: burlywood;
 }
@@ -93,12 +93,17 @@ html, body{
     
 }
 
-.about-right{
+.research-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.award-section{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     
 }
 
@@ -129,7 +134,27 @@ html, body{
     font-size: 18px;
     text-align: center;
     width: 300px;
-    
+}
+
+.experience-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.experience{
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    width: 500px;
+    height: fit-content;
+    margin: 10px 0px;
+}
+
+#star{
+    height: 50px;
+    width: 50px;
 }
 
 
@@ -190,9 +215,18 @@ html, body{
 }
 
 .work-section{
-    height: 800px;
+    /* height: 800px;
     width: 100%;
+    background-color: rgb(238, 204, 159); */
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
     background-color: rgb(238, 204, 159);
+    border-top: 15px double rgb(77, 54, 6);
+    border-bottom: 15px double rgb(77, 54, 6);
 }
 
 .contact-section{
