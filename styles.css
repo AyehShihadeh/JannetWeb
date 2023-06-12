@@ -53,24 +53,26 @@ html, body{
     background-size: cover;
     height: 650px;
     width: 100%;
-    position: relative;
+    /* position: relative; */
     align-items: center;
+    justify-content: space-between;
  
 }
 
 .name{
     width: fit-content;
     display: flex;
-    left: 70%;
+    /* left: 70%;
     top: 40%;
-    position: absolute;
+    position: absolute; */
+    margin-right: 50px;
     color: burlywood;
     font-size: 50px;
     align-items: center;
 }
 
 .about-me-section{
-    height: 700px;
+    height: fit-content;
     width: 100%;
     display: flex;
     align-items: center;
@@ -88,6 +90,7 @@ html, body{
     justify-content: center;
     align-items: center;
     width: 700PX;
+    margin: 25px;
     
 }
 
@@ -185,7 +188,7 @@ html, body{
 
   .about-me-p{
     display: flex;
-    height: 200px;
+    height: fit-content;
     width: fit-content;
     font-size: 20px;
     word-spacing: 5px;
@@ -215,7 +218,7 @@ html, body{
     align-items: center;
     justify-content: space-evenly;
     flex-direction: row;
-    background-color: rgb(238, 204, 159);
+    background-color: #eecc9f;
     border-top: 15px double rgb(77, 54, 6);
     border-bottom: 15px double rgb(77, 54, 6);
     padding: 50px 0px;
@@ -249,7 +252,7 @@ html, body{
     flex-direction: row;
     width: auto;
     height: auto;
-    background-color: rgb(236, 149, 165);
+    background-color: rgb(83, 44, 0);
     padding: 10px;
     margin-top: 30px;
     -webkit-box-pack: space-evenly;
@@ -257,6 +260,7 @@ html, body{
     justify-content: space-evenly;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    margin: 25px;
 }
 
 .research-card{
@@ -276,9 +280,9 @@ html, body{
     flex-direction: column;
     height: 380px;
     width: 250px;
-    background-color: rgb(235, 130, 150);
+    background-color:rgb(83, 44, 0);
     padding: 10px;
-    box-shadow: 4px 4px 15px palevioletred;
+    box-shadow: 4px 4px 15px rgb(83, 44, 0);
 }
 
 
@@ -290,5 +294,198 @@ html, body{
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.email-div{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(83, 44, 0, .7);
+    padding: 25px;
+    border: 5px double rgb(115, 61, 0);
+}
+
+.email-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: fit-content;
+    height: 25px;
+    margin-bottom: 10px;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    /* margin-left: 150px; */
+}
+
+.textbox-style1 {
+    /* background-position: 10px 10px; */
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(113, 61, 1);
+    border-radius: 5px;
+    /* -webkit-box-shadow: 5px 5px 5px rgb(238, 204, 159);
+    box-shadow: 5px 5px 5px rgb(238, 204, 159); */
+    background-color: rgb(238, 204, 159);
+    color: black;
+    margin: 0px 5px;
+}
+
+.textbox-style1:focus{
+    outline: none;
+}
+
+
+.textbox-style2 {
+    /* background-position: 10px 10px; */
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(123, 67, 2);
+    border-radius: 5px;
+    /* -webkit-box-shadow: 5px 5px 5px rgb(238, 204, 159);
+    box-shadow: 5px 5px 5px rgb(238, 204, 159); */
+    background-color: rgb(238, 204, 159);
+    color: black;
+    height: 300px;
+    width: 100%;
+}
+
+.textbox-style2:focus{
+    outline: none;
+
+}
+
+.submit-button{
+    text-decoration: none;
+    font-size: 16px;
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(140, 76, 3);
+    padding: 10px 25px;
+    border-radius: 50px;
+    margin-top: 20px;
+    width: fit-content;
+    background-color: rgb(238, 204, 159);
+    letter-spacing: 3px;
+}
+
+footer{
+    background-color: rgb(238, 204, 159);
+    width: 100%;
+    height: 40px;
+    margin-top: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.connect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#linkedin-logo{
+    margin: 0px 10px;
+}
+
+#linkedin-logo:hover{
+    border: rgb(140, 76, 3) double 2px;
+    border-radius: 20%;
+}
+
+
+/* MEDIA QUERIES  */
+
+/* 1440px width and smaller */
+@media all and (max-width:1360px){
+    .bar{
+        width: 15%;
+    }
+}
+
+@media all and (max-width:1320px){
+    .quote{
+        width: 650px;
+    }
+}
+
+@media all and (max-width:1175px){
+    .quote{
+        width: 550px;
+    }
+
+    .bar{
+        width: 10%;
+    }
+}
+
+@media all and (max-width:1075px){
+    .quote{
+        font-size: 24px;
+    }
+
+}
+
+@media all and (max-width:1000px){
+    .nav-item{
+        margin: 0px 30px;
+    }
+
+    .name{
+        font-size: 35px;
+    }
+
+    .about-me-section{
+        flex-direction: column;
+    }
+
+    .resume-bar{
+        height: 5px;
+        width: 50%;
+        margin: 20px;
+    }
+
+    .work-section{
+        flex-direction: column;
+    }
+}
+
+@media all and (max-width:800px){
+    .nav-item{
+        margin: 0px 15px;
+    }
+
+}
+
+@media all and (max-width:500px){
+    .textbox-style1{
+        width: 100px;
+    }
+
+    .textbox-style2{
+        height: 150px;
+    }
+}
+
+@media all and (max-width:350px){
+    .textbox-style1{
+        width: 85px;
+    }
 }
 
