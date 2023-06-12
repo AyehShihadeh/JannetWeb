@@ -11,7 +11,6 @@ html, body{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border-bottom: 5px brown solid; */
     width: 100%;
     height: fit-content;
     background-color: rgb(83, 44, 0);
@@ -48,7 +47,6 @@ html, body{
 .opening{
     display: flex;
     background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('IMAGES/library6.jpg');
-    /* filter: brightness(50%); */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -99,27 +97,27 @@ html, body{
     align-items: center;
 }
 
-.award-section{
+
+.section{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: fit-content;
+    height: auto;
     
 }
 
-.award{
-    display: flex;
-    justify-content: row;
-    align-items: center;
-    width: 500px;
-    height: fit-content;
-    margin: 20px 0px;
+
+#a{
+    width: 60px;
+    height: 60px;
+    margin: 0px 10px;
 }
 
-/* #a{
-    width: 100px;
-    height: 100px;
-} */
+#skill{
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+}
 
 .award-dot{
     height: 120px;
@@ -130,24 +128,21 @@ html, body{
     margin: 10px;
 }
 
-.award-title{
-    font-size: 18px;
-    text-align: center;
-    width: 300px;
-}
-
-.experience-section{
+.col{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    margin: 0px 10px;
 }
 
-.experience{
+.section-part{
     display: flex;
-    justify-content: row;
     align-items: center;
-    width: 500px;
+    justify-content: center;
+    width: fit-content;
     height: fit-content;
     margin: 10px 0px;
 }
@@ -155,6 +150,7 @@ html, body{
 #star{
     height: 50px;
     width: 50px;
+    margin: 0px 10px;
 }
 
 
@@ -184,13 +180,11 @@ html, body{
     border-radius: 50%;
     display: inline-block;
     position: absolute;
-    /* border: 5px double rgb(145, 114, 70); */
   }
 
 
   .about-me-p{
     display: flex;
-    /* box-shadow: inset; */
     height: 200px;
     width: fit-content;
     font-size: 20px;
@@ -215,9 +209,6 @@ html, body{
 }
 
 .work-section{
-    /* height: 800px;
-    width: 100%;
-    background-color: rgb(238, 204, 159); */
     height: fit-content;
     width: 100%;
     display: flex;
@@ -227,7 +218,69 @@ html, body{
     background-color: rgb(238, 204, 159);
     border-top: 15px double rgb(77, 54, 6);
     border-bottom: 15px double rgb(77, 54, 6);
+    padding: 50px 0px;
 }
+
+.card {
+    background-color: rgb(77, 54, 6, .1);
+    padding: 10px;
+    -webkit-box-shadow: 8px 8px 8px rgba(0,0,0,.05), 4px 4px 8px rgba(0,0,0,.1);
+    box-shadow: 8px 8px 8px rgba(0,0,0,.05), 4px 4px 8px rgba(0,0,0,.1);
+    border-radius: 4px;
+    height: fit-content;
+    width: fit-content;
+}
+
+.resume-bar{
+    width: 5px;
+    height: 300px;
+    background-color: rgb(82, 44, 0, .6);
+    border-radius: 20px;
+    margin: 0 20px;
+}
+
+.research-container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    background-color: rgb(236, 149, 165);
+    padding: 10px;
+    margin-top: 30px;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.research-card{
+    margin: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 380px;
+    width: 250px;
+    background-color: rgb(235, 130, 150);
+    padding: 10px;
+    box-shadow: 4px 4px 15px palevioletred;
+}
+
 
 .contact-section{
     height: 800px;
