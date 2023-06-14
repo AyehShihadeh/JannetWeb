@@ -325,7 +325,7 @@ html, body{
     justify-content: center;
     flex-direction: column;
     background-color: rgb(83, 44, 0, .7);
-    padding: 25px;
+    padding: 0px 25px 15px 25px;
     border: 5px double rgb(115, 61, 0);
 }
 
@@ -389,7 +389,6 @@ html, body{
     border-color: rgb(140, 76, 3);
     padding: 10px 25px;
     border-radius: 50px;
-    margin-top: 20px;
     width: fit-content;
     background-color: rgb(238, 204, 159);
     letter-spacing: 3px;
