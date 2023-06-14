@@ -53,7 +53,6 @@ html, body{
     background-size: cover;
     height: 650px;
     width: 100%;
-    /* position: relative; */
     align-items: center;
     justify-content: space-around;
  
@@ -62,13 +61,18 @@ html, body{
 .name{
     width: fit-content;
     display: flex;
-    /* left: 70%;
-    top: 40%;
-    position: absolute; */
     margin-right: 50px;
     color: burlywood;
     font-size: 50px;
     align-items: center;
+}
+
+#j{
+    font-size: 80px;
+}
+
+#m{
+    font-size: 80px;
 }
 
 .about-me-section{
@@ -616,11 +620,11 @@ footer{
         width: 30px;
         height: 30px;
     }
-    
+
     .contact-section{
         height: 600px;
     }
-    
+
     #j{
         font-size: 50px;
     }
