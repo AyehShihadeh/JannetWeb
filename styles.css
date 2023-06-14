@@ -621,6 +621,14 @@ footer{
     .contact-section{
         height: 600px;
     }
+    
+    #j{
+        font-size: 50px;
+    }
+
+    #m{
+        font-size: 50px;
+    }
 }
 
 @media all and (max-width:415px){
