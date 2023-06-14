@@ -617,6 +617,10 @@ footer{
         width: 30px;
         height: 30px;
     }
+    
+    .contact-section{
+        height: 600px;
+    }
 }
 
 @media all and (max-width:415px){
