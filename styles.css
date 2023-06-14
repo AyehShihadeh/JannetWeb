@@ -55,7 +55,7 @@ html, body{
     width: 100%;
     /* position: relative; */
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
  
 }
 
@@ -89,7 +89,8 @@ html, body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 700PX;
+    width: fit-content;
+    height: fit-content;
     margin: 25px;
     
 }
@@ -129,6 +130,18 @@ html, body{
     border-radius: 50%;
     border: 5px double rgb(145, 114, 70);
     margin: 10px;
+}
+
+#awards{
+    font-size: 40px;
+}
+
+#experience{
+    font-size: 40px;
+}
+
+#skills{
+    font-size: 40px;
 }
 
 .col{
@@ -189,7 +202,7 @@ html, body{
   .about-me-p{
     display: flex;
     height: fit-content;
-    width: fit-content;
+    width: 630px;
     font-size: 20px;
     word-spacing: 5px;
     line-height: 25px;
@@ -199,6 +212,10 @@ html, body{
     font-size: 90px;
     color: rgb(63, 36, 0);
     letter-spacing: 5px;
+  }
+
+  #i{
+    font-size: 80px;
   }
 
 
@@ -471,6 +488,62 @@ footer{
         margin: 0px 15px;
     }
 
+    .about-me-title{
+        font-size: 70px;
+    }
+
+    .about-me-p{
+        font-size: 18px;
+    }
+
+    #i{
+        font-size: 60px;
+    }
+
+    .opening{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .name{
+        margin: 0px;
+    }
+
+    .quote{
+        font-size: 22px;
+    }
+}
+
+@media all and (max-width:660px){
+    .nav-item{
+        font-size: 16px;
+        letter-spacing: 1px;
+        margin: 0px 5px;
+    }
+
+    .bar{
+        width: 10%;
+    }
+
+    .about-me-p{
+        width: 500px;
+        font-size: 16px;
+    }
+
+    .about-me-title{
+        font-size: 50px;
+    }
+}
+
+@media all and (max-width:600px){
+    .quote{
+        width: 400px;
+    }
+
+    .about-me-p{
+        width: 380px;
+    }
 }
 
 @media all and (max-width:500px){
@@ -480,6 +553,93 @@ footer{
 
     .textbox-style2{
         height: 150px;
+    }
+
+    .quote{
+        font-size: 18px;
+        padding: 0px;
+    }
+
+    .nav-item{
+        font-size: 14px;
+        letter-spacing: 1px;
+        margin: 0px 3px;
+    }
+
+    .bar{
+        width: 7%;
+    }
+
+    .opening{
+        height: 500px;
+    }
+
+    .name{
+        font-size: 25px;
+    }
+
+    footer{
+        height: 30px;
+    }
+
+    #linkedin-logo{
+        width: 25px;
+        height: 25px;
+    }
+
+    #awards{
+        font-size: 25px;
+    }
+    
+    #experience{
+        font-size: 25px;
+    }
+    
+    #skills{
+        font-size: 25px;
+    }
+
+    .card{
+        font-size: 13px;
+    }
+
+    #a{
+        width: 30px;
+        height: 30px;
+    }
+
+    #star{
+        width: 30px;
+        height: 30px;
+    }
+
+    #skill{
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media all and (max-width:415px){
+    .quote{
+        width: 310px;
+        font-size: 16px
+    }
+
+    .about-me-p{
+        width: 300px;
+        font-size: 15px;
+
+    }
+}
+
+@media all and (max-width:400px){
+    .nav-item{
+        font-size: 13px;
+        letter-spacing: 1px;
+        margin: 0px 2px;
+    }
+    .bar{
+        width: 5%;
     }
 }
 
